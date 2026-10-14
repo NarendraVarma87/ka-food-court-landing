@@ -10,6 +10,7 @@ import {
   Gallery,
   Testimonials,
   Faq,
+  InquiryCta,
 } from '@/sections'
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
       <Gallery />
       <Testimonials />
       <Faq />
+      <InquiryCta />
     </main>
   )
 }
