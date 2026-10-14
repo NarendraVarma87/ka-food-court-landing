@@ -1,0 +1,6 @@
+export { Hero } from './Hero'
+export { TrustStrip } from './TrustStrip'
+export { About } from './About'
+export { Services } from './Services'
+export { Process } from './Process'
+export { WhyUs } from './WhyUs'
