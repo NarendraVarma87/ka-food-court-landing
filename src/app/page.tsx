@@ -1,4 +1,16 @@
-import { Hero, TrustStrip, About, Services, Process, WhyUs } from '@/sections'
+import {
+  Hero,
+  TrustStrip,
+  About,
+  Services,
+  Process,
+  WhyUs,
+  Locations,
+  EventsCatering,
+  Gallery,
+  Testimonials,
+  Faq,
+} from '@/sections'
 
 export default function Home() {
   return (
@@ -9,6 +21,11 @@ export default function Home() {
       <Services />
       <Process />
       <WhyUs />
+      <Locations />
+      <EventsCatering />
+      <Gallery />
+      <Testimonials />
+      <Faq />
     </main>
   )
 }
