@@ -24,35 +24,35 @@ export const galleryContent: GalleryContent = {
     },
     {
       id: 'gallery-3',
-      src: '',
-      alt: 'Office celebration and high-tea snack table arrangement',
+      src: '/images/gallery-high-tea.jpg',
+      alt: 'Executive corporate high-tea snack spread and tea service setup',
       caption: 'Executive High-Tea & Team Celebration Spread',
       category: 'Corporate Events',
-      isClientSupplied: false, // Renders brand-tinted placeholder with // TODO(client): photo
+      isClientSupplied: true,
     },
     {
       id: 'gallery-4',
-      src: '',
-      alt: 'Artisan cafe counter serving espresso and filter coffee',
+      src: '/images/gallery-coffee-counter.jpg',
+      alt: 'Artisan corporate cafe counter serving espresso and filter coffee',
       caption: 'All-Day Corporate Coffee & Quick Bites Counter',
       category: 'Cafe Spaces',
-      isClientSupplied: false, // Renders brand-tinted placeholder with // TODO(client): photo
+      isClientSupplied: true,
     },
     {
       id: 'gallery-5',
-      src: '',
-      alt: 'Live dosa and South Indian morning breakfast stall',
+      src: '/images/gallery-breakfast-stall.jpg',
+      alt: 'Live tiffins, dosas, and South Indian morning breakfast stall',
       caption: 'Live Morning Breakfast & Regional Specialties Stall',
       category: 'Food Court',
-      isClientSupplied: false, // Renders brand-tinted placeholder with // TODO(client): photo
+      isClientSupplied: true,
     },
     {
       id: 'gallery-6',
-      src: '',
-      alt: 'Evening team outing catering setup with live mocktail and snack bar',
+      src: '/images/gallery-outdoor-catering.jpg',
+      alt: 'Outdoor corporate evening celebration and team dinner catering',
       caption: 'Outdoor Team Outing & Milestone Dinner Catering',
       category: 'Corporate Events',
-      isClientSupplied: false, // Renders brand-tinted placeholder with // TODO(client): photo
+      isClientSupplied: true,
     },
   ],
 }

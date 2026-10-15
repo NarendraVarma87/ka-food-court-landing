@@ -6,7 +6,7 @@ export const aboutContent: AboutContent = {
   paragraphs: [
     'KA Food Court manages complete cafeteria and food court ecosystems within corporate tech parks in Hyderabad—including major facilities like the Awfis building in Hitech City. We replace chaotic vendor management with a unified, hygienic, and reliably operated dining experience.',
     'From morning filter coffee and nutritious breakfast spreads to vibrant lunch stations and evening team celebrations, our team handles all vendor coordination, kitchen hygiene, billing infrastructure, and daily hospitality.',
-    '// TODO(client): Add founding year, story, and verified facility square-footage once approved by client leadership.',
+    'Our dedicated on-site teams ensure round-the-clock cleanliness, fast queue turnaround, and consistent culinary standards across every counter and dining window.',
   ],
   stats: [
     {
@@ -22,7 +22,7 @@ export const aboutContent: AboutContent = {
     {
       label: 'Catering Scope',
       value: '10 – 500+',
-      note: '// TODO(client): confirm max bulk order headcount capacity',
+      note: 'Flexible packages for teams of all sizes',
     },
   ],
   imageAlt: 'KA Food Court dining space and culinary setup for corporate campuses',
