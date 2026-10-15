@@ -86,7 +86,7 @@ export function Hero() {
             <Reveal delay={0.2} className="relative z-10">
               <div className="relative rounded-[28px] overflow-hidden border border-border/80 shadow-[0_20px_50px_-12px_rgba(10,10,11,0.12)] bg-surface-soft">
                 <Image
-                  src="/images/client-hero.png"
+                  src="/images/corporate-food-court.jpg"
                   alt={heroContent.heroImageAlt}
                   width={640}
                   height={560}

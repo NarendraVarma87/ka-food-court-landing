@@ -10,7 +10,7 @@ export function buildLocalBusinessSchema() {
     legalName: SITE.legalName,
     url: SITE.url,
     logo: `${SITE.url}/brand/logo.svg`,
-    image: `${SITE.url}/images/client-hero.png`,
+    image: `${SITE.url}/images/corporate-food-court.jpg`,
     telephone: SITE.phoneRaw,
     email: SITE.email,
     address: {

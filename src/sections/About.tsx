@@ -61,7 +61,7 @@ export function About() {
               <Reveal delay={0.1}>
                 <div className="relative rounded-[24px] overflow-hidden border border-border/80 shadow-md aspect-[16/11]">
                   <Image
-                    src="/images/client-hero.png"
+                    src="/images/corporate-food-court.jpg"
                     alt={aboutContent.imageAlt}
                     width={560}
                     height={385}

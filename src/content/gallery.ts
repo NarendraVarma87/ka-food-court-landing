@@ -8,19 +8,19 @@ export const galleryContent: GalleryContent = {
   items: [
     {
       id: 'gallery-1',
-      src: '/images/client-hero.png',
-      alt: 'KA Food Court corporate dining setup and cafe ambience',
+      src: '/images/corporate-food-court.jpg',
+      alt: 'KA Food Court corporate dining setup and multi-cuisine counters at Awfis Hitech City',
       caption: 'Corporate Cafeteria Counter · Awfis Hitech City Campus',
       category: 'Food Court',
       isClientSupplied: true,
     },
     {
       id: 'gallery-2',
-      src: '',
-      alt: 'Freshly prepared corporate lunch spread and chafing dish stations',
-      caption: 'Fresh Daily Lunch Buffet & Multi-Cuisine Counters',
+      src: '/images/corporate-catering.jpg',
+      alt: 'Freshly prepared corporate lunch buffet and warm catering spread',
+      caption: 'Fresh Daily Lunch Buffet & Multi-Cuisine Catering',
       category: 'Catering',
-      isClientSupplied: false, // Renders brand-tinted placeholder with // TODO(client): photo
+      isClientSupplied: true,
     },
     {
       id: 'gallery-3',
