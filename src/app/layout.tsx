@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next'
-import { Plus_Jakarta_Sans, Inter } from 'next/font/google'
+import '@fontsource-variable/plus-jakarta-sans'
+import '@fontsource-variable/inter'
 import './globals.css'
 import { SITE } from '@/config/site'
 import { SkipLink } from '@/components/layout/SkipLink'
@@ -9,20 +10,6 @@ import { Footer } from '@/components/layout/Footer'
 import { MotionProvider } from '@/components/layout/MotionProvider'
 import { JsonLd } from '@/components/seo/JsonLd'
 import { buildLocalBusinessSchema } from '@/lib/schema'
-
-const headingFont = Plus_Jakarta_Sans({
-  subsets: ['latin'],
-  weight: ['600', '700', '800'],
-  variable: '--font-heading-jakarta',
-  display: 'swap',
-})
-
-const bodyFont = Inter({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
-  variable: '--font-body-inter',
-  display: 'swap',
-})
 
 export const viewport: Viewport = {
   themeColor: '#0A0A0B',
@@ -102,7 +89,7 @@ export default function RootLayout({
   const localBusinessSchema = buildLocalBusinessSchema()
 
   return (
-    <html lang="en-IN" className={`${headingFont.variable} ${bodyFont.variable}`}>
+    <html lang="en-IN">
       <head>
         <JsonLd data={localBusinessSchema} />
       </head>
